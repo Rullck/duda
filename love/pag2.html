@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amor</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            font-size: 20px;
+            margin: 50px;
+            margin-top: 100px;
+            background-image: linear-gradient(to left, #00212D, #7D3215, #0093AF, #7D3215, #00212D );
+        }
+        #all{
+            border-color: aquamarine;
+            border-width: 5px;
+            border-style: solid;
+            flex-direction: row;
+            margin: auto;
+            display: flex;
+            border-radius: 50px;
+            background-color: white;
+            width: 1200px;
+            height: auto;
+           
+        }
+        #meio{
+            
+            flex-grow: 3;
+            width: 1px;
+            align-items:stretch;
+            flex-direction: column;
+            align-content: stretch;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+        }
+        p, h1{
+            text-align: left;
+            flex-direction: column;
+            
+        }
+        img{
+            height: 100%;
+            width: 370px;
+            object-fit: scale-down;
+            flex-direction: column;
+            flex-grow: 1;
+            float: right;
+            border-radius: 100px;
+            
+        }
+        #amo{   
+            height: 100%;
+        }
+        #inf{
+            border-radius: 40px;
+            background-color: rgb(207, 177, 122);
+            padding: 150px;
+            flex-grow: 1;
+            width: 1px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        ol > .inv{
+            display: none;
+        }
+        
+        ol:hover{
+           color: black;
+        }
+        
+        ol:hover > .inv{
+            display: block;
+            color: red;
+            background-color: black;
+        }
+            
+    
+    </style>
+</head>
+<body>
+    <main>
+        <div id="all">
+
+
+            <div id="inf">
+                <div>
+                    <span>
+                        <h1>
+                            Olá, abaixo estão todas informações!
+                        </h1>
+                        
+                        <p>Local: Empório da Carne</p>
+                        <p>Horário: 19horas</p>
+                        <p>Dia: 22 de novembro</p>
+                        <p>O que levar:<p>
+                            <ol>
+                                <li>Você</li>
+                                <li>Sua beleza</li>
+                                <li>Sua felicidade</li>
+                                <li>Sua luz</li>
+                                Clique aqui
+                                <li class="inv">dinheiro também, claro</li>
+                            </ol>
+                    </span>
+                    </div>
+            </div>
+
+
+            <div id="meio">
+                <img src="emporio.png" alt="">
+                
+            </div>
+
+            <div id="meio">
+                <img src="amo.png" alt="" id="amo">
+                
+            </div>
+            
+
+
+
+        </div>
+    </main>
+</body>
+</html>
